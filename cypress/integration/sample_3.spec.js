@@ -1,0 +1,33 @@
+/// <reference types="cypress" />
+
+/*
+<div class="course">
+    <ng-container *ngIf="(course$ | async) as course">
+        <h2>{{course?.description}}</h2>
+        <img class="course-thumbnail" [src]="course?.iconUrl">
+    </ng-container>
+
+    <mat-form-field class="search-bar">
+        <input matInput placeholder="Type your search" #searchInput autocomplete="off">
+    </mat-form-field>
+
+    <table class="lessons-table mat-elevation-z7" *ngIf="(lessons$ | async) as lessons">
+        <thead>
+            <th>#</th>
+            <th>Description</th>
+            <th>Duration</th>
+        </thead>
+        <tr *ngFor="let lesson of lessons">
+            <td class="seqno-cell">{{lesson.seqNo}}</td>
+            <td class="description-cell">{{lesson.description}}</td>
+            <td class="duration-cell">{{lesson.duration}}</td>
+        </tr>
+    </table>
+</div>
+*/
+
+describe('My First Test 0', () => {
+    it('See if course exists', () => {
+      cy.visit('localhost:4200') 
+    })
+  })

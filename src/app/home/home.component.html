@@ -1,0 +1,1171 @@
+<h3>operators</h3>
+
+<div class="clearfix">
+
+    <!--
+    <div class="heroes-menu">
+        <a *ngFor="let hero of heroes"
+            routerLink="/detail/{{hero.id}}">
+            {{hero.name}}
+        </a>
+    </div-->
+
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="audit()">
+                audit
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="auditTime()">
+                auditTime
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="buffer()">
+                buffer
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="bufferCount()">
+                bufferCount
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="bufferTime()">
+                bufferTime
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="bufferToggle()">
+                bufferToggle
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="bufferWhen()">
+                bufferWhen
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="catchError()">
+                catchError
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                combineAll
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                combineLatest
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                combineLatestAll
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                combineLatestWith
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                concat
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="concatAll()">
+                concatAll
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="concatMap()">
+                concatMap
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="concatMapTo()">
+                concatMapTo
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                concatWith
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                connect
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="count()">
+                count
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="debounce()">
+                debounce
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="debouceTime()">
+                debouceTime
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="defaultIfEmpty()">
+                defaultIfEmpty
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="delay()">
+                delay
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="delayWhen()">
+                delayWhen
+            </button>
+        </div>
+    </div>
+
+    <!---->
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="dematerialize()">
+                dematerialize
+            </button>
+        </div>
+    </div>
+
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="distinct()">
+                distinct
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="distinctUntilChanged()">
+                distinctUntilChanged
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="distinctUntilKeyChanged()">
+                distinctUntilKeyCha...
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="elementAt()">
+                elementAt
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="endWith()">
+                endWith
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="every()">
+                every
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                exhaust
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                exhaustAll
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="exhaustMap()">
+                exhaustMap
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="expand()">
+                expand
+            </button>
+        </div>
+    </div>
+
+    <!---->
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="filter()">
+                filter
+            </button>
+        </div>
+    </div>
+
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="finalize()">
+                finalize
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="find()">
+                find
+            </button>
+        </div>
+    </div>
+
+    <!---->
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="findIndex()">
+                findIndex
+            </button>
+        </div>
+    </div>
+
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="first()">
+                first
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                flatMap
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="groupBy()">
+                groupBy
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="ignoreElements()">
+                ignoreElements
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="isEmpty()">
+                isEmpty
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="last()">
+                last
+            </button>
+        </div>
+    </div>
+
+    <!---->
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="map()">
+                map
+            </button>
+        </div>
+    </div>
+
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="mapTo()">
+                mapTo
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="materialize()">
+                materialize
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="max()">
+                max
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                merge
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="mergeAll()">
+                mergeAll
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="mergeMap()">
+                mergeMap
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="mergeMapTo()">
+                mergeMapTo
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="mergeScan()">
+                mergeScan
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                mergeWith
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="min()">
+                min
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                multicast
+            </button>
+        </div>
+    </div>
+
+    <!---->
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="observeOn()">
+                observeOn
+            </button>
+        </div>
+    </div>
+
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="onErrorResumeNext()">
+                onErrorResumeNext
+            </button>
+        </div>
+    </div>
+
+    <!---->
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="pairwise()">
+                pairwise
+            </button>
+        </div>
+    </div>
+
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                partition
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                pluck
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                publish
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                publishBehavior
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                publishLast
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                publishReplay
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                race
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                raceWith
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="reduce()">
+                reduce
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                refCount
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="repeat()">
+                repeat
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="repeatWhen()">
+                repeatWhen
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="operatorsNa()">
+                retry
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="retryWhen()">
+                retryWhen
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="sample()">
+                sample
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="sampleTime()">
+                sampleTime
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="scan()">
+                scan
+            </button>
+        </div>
+    </div>
+
+    <!---->
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="sequenceEqual()">
+                sequenceEqual
+            </button>
+        </div>
+    </div>
+
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="share()">
+                share
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="shareReplay()">
+                shareReplay
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="single()">
+                single
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="skip()">
+                skip
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="skipLast()">
+                skipLast
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="skipUntil()">
+                skipUntil
+            </button>
+        </div>
+    </div>
+
+    <!---->
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="skipWhile()">
+                skipWhile
+            </button>
+        </div>
+    </div>
+
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="startWith()">
+                startWith
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="operatorsNa()">
+                subscribeOn
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="switchAll()">
+                switchAll
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="switchMap()">
+                switchMap
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="switchMapTo()">
+                switchMapTo
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="operatorsNa()">
+                switchScan
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="take()">
+                take
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="takeLast()">
+                takeLast
+            </button>
+        </div>
+    </div>
+
+    <!---->
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="operatorsNa()">
+                takeUntil
+            </button>
+        </div>
+    </div>
+
+    <!---->
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="operatorsNa()">
+                takeWhile
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="tap()">
+                tap
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="throttle()">
+                throttle
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="throttleTime()">
+                throttleTime
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="throwIfEmpty()">
+                throwIfEmpty
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="timeInterval()">
+                timeInterval
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                timeout
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="operatorsNa()">
+                timeoutWith
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="timestamp()">
+                timestamp
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="toArray()">
+                toArray
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="window()">
+                window
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="windowCount()">
+                windowCount
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="windowTime()">
+                windowTime
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="windowToggle()">
+                windowToggle
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="windowWhen()">
+                windowWhen
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="withLatestFrom()">
+                withLatestFrom
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button titleU">
+                zip
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="operatorsNa()">
+                zipAll
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div class="title">
+
+            </div>
+            <button class="button" (click)="operatorsNa()">
+                zipWith
+            </button>
+        </div>
+    </div>
+</div>

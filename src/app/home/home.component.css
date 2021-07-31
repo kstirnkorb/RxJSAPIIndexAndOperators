@@ -1,0 +1,36 @@
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.button {
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  display: block;
+}
+
+.titleU {
+  text-decoration: line-through;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font: 0.8em sans-serif;
+  margin: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  padding: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
