@@ -38,8 +38,16 @@ The application is visible at port 4200: [http://localhost:4200](http://localhos
 
 RxJS (Deprecated, soon be deprecated, n/a)
 
+###
+
 animationFrame (deprecated) deprecated
+
+##
+
 animationFrames soon be deprecated
+
+##
+
 animationFrameScheduler n/a
 ArgumentOutOfRangeError n/a
 asap (deprecated) deprecated
