@@ -32,64 +32,190 @@ To run the frontend part of our code, we will use the Angular CLI:
 
     npm start
 
-The application is visible at port 4200: [http://localhost:4200](http://localhost:4200)
+The application is visible at port 4200: [http://localhost:4200](http://localhost:4200). DON'T FORGET... More Tools... Developer Tools... ON IT.
 
 # RxJS (Deprecated, soon be deprecated, n/a) and Operators (deprecated, soon be deprecated, n/a)
 
 RxJS (Deprecated, soon be deprecated, n/a)
 
-###
+##
 
-animationFrame (deprecated) deprecated
+animationFrame - deprecated
 
 ##
 
-animationFrames soon be deprecated
+animationFrames - soon be deprecated
 
 ##
 
-animationFrameScheduler n/a
-ArgumentOutOfRangeError n/a
-asap (deprecated) deprecated
-asapScheduler n/a
-async (deprecated) deprecated
-asyncScheduler n/a
-AsyncSubject n/a
-BehaviorSubject n/a
-bindCallback n/a
-bindNodeCallback n/a
-combineLatest n/a
-CompleteNotification n/a
-CompletionObserver n/a
-concat n/a
-config n/a
-connectable n/a
-ConnectableObservable deprecated
-Cons n/a
-defer n/a
-empty deprecated
-EMPTY n/a
-EmptyError n/a
-ErrorNotification n/a
-ErrorObserver n/a
-FactoryOrValue n/a
-Falsy n/a
-firstValueFrom soon be deprecated
-forkJoin n/a
-from n/a
-fromEvent n/a
-fromEventPattern n/a
-generate n/a
-GlobalConfig n/a
-GroupedObservable n/a
-Head n/a
-identity n/a
-iif n/a
-InteropObservable n/a
-interval n/a
-isObservable n/a
-lastValueFrom soon be deprecated
-merge n/a
+animationFrameScheduler - n/a
+
+##
+
+ArgumentOutOfRangeError - n/a
+
+##
+
+asap - deprecated
+
+##
+
+asapScheduler - n/a
+
+##
+
+async - deprecated
+
+##
+
+asyncScheduler - n/a
+
+##
+
+AsyncSubject - n/a
+
+##
+
+BehaviorSubject - n/a
+
+##
+
+bindCallback - n/a
+
+##
+
+bindNodeCallback - n/a
+
+##
+
+combineLatest - n/a
+
+##
+
+CompleteNotification - n/a
+
+##
+
+CompletionObserver - n/a
+
+##
+
+concat - n/a
+
+##
+
+config - n/a
+
+##
+
+connectable - n/a
+
+##
+
+ConnectableObservable - deprecated
+
+##
+
+Cons - n/a
+
+##
+
+defer - n/a
+
+##
+
+empty - deprecated
+
+##
+
+EMPTY - n/a
+
+##
+
+EmptyError - n/a
+
+##
+
+ErrorNotification - n/a
+
+##
+
+ErrorObserver - n/a
+
+##
+
+FactoryOrValue - n/a
+
+##
+
+Falsy - n/a
+
+##
+
+firstValueFrom - soon be deprecated
+
+##
+
+forkJoin - n/a
+
+##
+
+from - n/a
+
+##
+
+fromEvent - n/a
+
+##
+
+fromEventPattern - n/a
+
+##
+
+generate - n/a
+
+##
+
+GlobalConfig - n/a
+
+##
+
+GroupedObservable - n/a
+
+##
+
+Head - n/a
+
+##
+
+identity - n/a
+
+##
+
+iif - n/a
+
+##
+
+InteropObservable - n/a
+
+##
+
+interval - n/a
+
+##
+
+isObservable - n/a
+
+##
+
+lastValueFrom - soon be deprecated
+
+##
+
+merge - n/a
+
+##
+
 MonoTypeOperatorFunction n/a
 never deprecated
 NEVER n/a
@@ -155,6 +281,9 @@ ValueFromNotification n/a
 VirtualAction n/a
 VirtualTimeScheduler n/a
 zip n/a
+
+##
+
 Operators (deprecated, soon be deprecated, n/a)
 audit n/a
 auditTime n/a
