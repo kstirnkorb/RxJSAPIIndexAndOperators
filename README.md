@@ -216,70 +216,262 @@ merge - n/a
 
 ##
 
-MonoTypeOperatorFunction n/a
-never deprecated
-NEVER n/a
-NextNotification n/a
-NextObserver n/a
-noop n/a
-NotFoundError n/a
-Notifcation deprecated
-NotificationKind deprecated
-ObjectUnsubscribedError n/a
-Observable n/a
-observable n/a
-ObservableInput n/a
-ObservableInputTuple n/a
-ObservableLike deprecated
-ObservableNotification n/a
-ObservedValueOf n/a
-ObservedValuesFromArray deprecated
-ObservedValueTupleFromArray n/a
-ObservedValueUnionFromArray n/a
-Observer n/a
-of n/a
-onErrorResumeNext n/a
-Operator deprecated
-OperatorFunction n/a
-pairs deprecated
-PartialObserver n/a
-partition n/a
-pipe n/a
-queue deprecated
-queueScheduler n/a
-race n/a
-range n/a
-ReadableStreamLike n/a
-ReplaySubject n/a
-scheduled n/a
-Scheduler deprecated
-SchedulerAction n/a
-SchedulerLike n/a
-SequenceError n/a
-Subject n/a
-SubjectLike n/a
-Subscribable n/a
-SubscribableOrPromise deprecated
-Subscriber n/a
-Subscription n/a
-SubscriptionLike n/a
-Tail n/a
-TeardownLogic n/a
-throwError n/a
-TimeInterval n/a
-TimeoutError n/a
-timer n/a
-Timestamp n/a
-TimestampProvider n/a
-TruthyTypesOf n/a
-UnaryFunction n/a
-Unsubscribable n/a
-UnsubscriptionError n/a
-using n/a
-ValueFromArray n/a
-ValueFromNotification n/a
-VirtualAction n/a
-VirtualTimeScheduler n/a
+MonoTypeOperatorFunction - n/a
+
+##
+
+never - deprecated
+
+##
+
+NEVER - n/a
+
+##
+
+NextNotification - n/a
+
+##
+
+NextObserver - n/a
+
+##
+
+noop - n/a
+
+##
+
+NotFoundError - n/a
+
+##
+
+Notifcation - deprecated
+
+##
+
+NotificationKind - deprecated
+
+##
+
+ObjectUnsubscribedError - n/a
+
+##
+
+Observable - n/a
+
+##
+
+observable - n/a
+
+##
+
+ObservableInput - n/a
+
+##
+
+ObservableInputTuple - n/a
+
+##
+
+ObservableLike - deprecated
+
+##
+
+ObservableNotification - n/a
+
+##
+
+ObservedValueOf - n/a
+
+##
+
+ObservedValuesFromArray - deprecated
+
+##
+
+ObservedValueTupleFromArray - n/a
+
+##
+
+ObservedValueUnionFromArray - n/a
+
+##
+
+Observer - n/a
+
+##
+
+of - n/a
+
+##
+
+onErrorResumeNext - n/a
+
+##
+
+Operator - deprecated
+
+##
+
+OperatorFunction - n/a
+
+##
+
+pairs - deprecated
+
+##
+
+PartialObserver - n/a
+
+##
+
+partition - n/a
+
+##
+
+pipe - n/a
+
+##
+
+queue - deprecated
+
+##
+
+queueScheduler - n/a
+
+##
+
+race - n/a
+
+##
+
+range - n/a
+
+##
+
+ReadableStreamLike - n/a
+
+##
+
+ReplaySubject - n/a
+
+##
+
+scheduled - n/a
+
+##
+
+Scheduler - deprecated
+
+##
+
+SchedulerAction - n/a
+
+##
+
+SchedulerLike - n/a
+
+##
+
+SequenceError - n/a
+
+##
+
+Subject - n/a
+
+##
+
+SubjectLike - n/a
+
+##
+
+Subscribable - n/a
+
+##
+
+SubscribableOrPromise - deprecated
+
+##
+
+Subscriber - n/a
+
+##
+
+Subscription - n/a
+
+##
+
+SubscriptionLike - n/a
+
+##
+
+Tail - n/a
+
+##
+
+TeardownLogic - n/a
+
+##
+
+throwError - n/a
+
+##
+
+TimeInterval - n/a
+
+##
+
+TimeoutError - n/a
+
+##
+
+timer - n/a
+
+##
+
+Timestamp - n/a
+
+##
+
+TimestampProvider - n/a
+
+##
+
+TruthyTypesOf - n/a
+
+##
+
+UnaryFunction - n/a
+
+##
+
+Unsubscribable - n/a
+
+##
+
+UnsubscriptionError - n/a
+
+##
+
+using - n/a
+
+##
+
+ValueFromArray - n/a
+
+##
+
+ValueFromNotification - n/a
+
+##
+
+VirtualAction - n/a
+
+##
+
+VirtualTimeScheduler - n/a
+
+##
+
 zip n/a
 
 ##
