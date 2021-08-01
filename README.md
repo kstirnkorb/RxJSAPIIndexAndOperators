@@ -474,119 +474,458 @@ VirtualTimeScheduler - n/a
 
 zip n/a
 
-####
+##
 
-Operators (deprecated, soon be deprecated, n/a)
-audit n/a
-auditTime n/a
-buffer n/a
-bufferCount n/a
-bufferTime n/a
-bufferToggle n/a
-bufferWhen n/a
-catchError n/a
-combineAll deprecated
-combineLatest deprecated
-combineLatestAll soon be deprecated
-combineLatestWith soon be deprecated
-concat deprecated
-concatAll n/a
-concatMap n/a
-concatMapTo n/a
-concatWith soon be deprecated
-connect soon be deprecated
-count n/a
-debounce n/a
-debounceTime n/a
-defaultIfEmpty n/a
-delay n/a
-delayWhen n/a
-dematerialize n/a
-distinct n/a
-distinctUntilChanged n/a
-distinctUntilKeyChanged n/a
-elementAt n/a
-endWith n/a
-every n/a
-exhaust deprecated
-exhaustAll soon be deprecated
-exhaustMap n/a
-expand n/a
-filter n/a
-finalize n/a
-find n/a
-findIndex n/a
-first n/a
-flatMap deprecated
-groupBy n/a
-ignoreElements n/a
-isEmpty n/a
-last n/a
-map n/a
-mapTo n/a
-materialize n/a
-max n/a
-merge soon be deprecated
-mergeAll n/a
-mergeMap n/a
-mergeMapTo n/a
-mergeScan n/a
-mergeWith soon be deprecated
-min n/a
-multicast deprecated
-observeOn n/a
-onErrorResumeNext n/a
-pairwise n/a
-partition deprecated
-pluck deprecated
-publish deprecated
-publishBehavior deprecated
-publishLast deprecated
-publishReplay deprecated
-race deprecated
-raceWith soon be deprecated
-reduce n/a
-refCount deprecated
-repeat n/a
-repeatWhen n/a
-retry n/a
-retryWhen n/a
-sample n/a
-sampleTime n/a
-scan n/a
-sequenceEqual n/a
-share n/a
-shareReplay n/a
-single n/a
-skip n/a
-skipLast n/a
-skipUntil n/a
-skipWhile n/a
-startWith n/a
-subscribeOn n/a
-switchAll n/a
-switchMap n/a
-switchMapTo n/a
-switchScan n/a
-take n/a
-takeLast n/a
-takeUntil n/a
-takeWhile n/a
-tap n/a
-throttle n/a
-throttleTime n/a
-throwIfEmpty n/a
-timeInterval n/a
-timeout soon be deprecated
-timeoutWith n/a
-timestamp n/a
-toArray n/a
-window n/a
-windowCount n/a
-windowTime n/a
-windowToggle n/a
-windowWhen n/a
-withLatestFrom n/a
-zip deprecated
-zipAll n/a
+OPERATORS (deprecated, soon be deprecated, n/a)
+
+##
+
+audit - n/a
+
+##
+
+auditTime - n/a
+
+##
+
+buffer - n/a
+
+##
+
+bufferCount - n/a
+
+##
+
+bufferTime - n/a
+
+##
+
+bufferToggle - n/a
+
+##
+
+bufferWhen - n/a
+
+##
+
+catchError - n/a
+
+##
+
+combineAll - deprecated
+
+##
+
+combineLatest - deprecated
+
+##
+
+combineLatestAll - soon be deprecated
+
+##
+
+combineLatestWith - soon be deprecated
+
+##
+
+concat - deprecated
+
+##
+
+concatAll - n/a
+
+##
+
+concatMap - n/a
+
+##
+
+concatMapTo - n/a
+
+##
+
+concatWith - soon be deprecated
+
+##
+
+connect - soon be deprecated
+
+##
+
+count - n/a
+
+##
+
+debounce - n/a
+
+##
+
+debounceTime - n/a
+
+##
+
+defaultIfEmpty - n/a
+
+##
+
+delay - n/a
+
+##
+
+delayWhen - n/a
+
+##
+
+dematerialize - n/a
+
+##
+
+distinct - n/a
+
+##
+
+distinctUntilChanged - n/a
+
+##
+
+distinctUntilKeyChanged - n/a
+
+##
+
+elementAt - n/a
+
+##
+
+endWith - n/a
+
+##
+
+every - n/a
+
+##
+
+exhaust - deprecated
+
+##
+
+exhaustAll - soon be deprecated
+
+##
+
+exhaustMap - n/a
+
+##
+
+expand - n/a
+
+##
+
+filter - n/a
+
+##
+
+finalize - n/a
+
+##
+
+find - n/a
+
+##
+
+findIndex - n/a
+
+##
+
+first - n/a
+
+##
+
+flatMap - deprecated
+
+##
+
+groupBy - n/a
+
+##
+
+ignoreElements - n/a
+
+##
+
+isEmpty - n/a
+
+##
+
+last - n/a
+
+##
+
+map - n/a
+
+##
+
+mapTo - n/a
+
+##
+
+materialize - n/a
+
+##
+
+max - n/a
+
+##
+
+merge - soon be deprecated
+
+##
+
+mergeAll - n/a
+
+##
+
+mergeMap - n/a
+
+##
+
+mergeMapTo - n/a
+
+##
+
+mergeScan - n/a
+
+##
+
+mergeWith - soon be deprecated
+
+##
+
+min - n/a
+
+##
+
+multicast - deprecated
+
+##
+
+observeOn - n/a
+
+##
+
+onErrorResumeNext - n/a
+
+##
+
+pairwise - n/a
+
+##
+
+partition - deprecated
+
+##
+
+pluck - deprecated
+
+##
+
+publish - deprecated
+
+##
+
+publishBehavior - deprecated
+
+##
+
+publishLast - deprecated
+
+##
+
+publishReplay - deprecated
+
+##
+
+race - deprecated
+
+##
+
+raceWith - soon be deprecated
+
+##
+
+reduce - n/a
+
+##
+
+refCount - deprecated
+
+##
+
+repeat - n/a
+
+##
+
+repeatWhen - n/a
+
+##
+
+retry - n/a
+
+##
+
+retryWhen - n/a
+
+##
+
+sample - n/a
+
+##
+
+sampleTime - n/a
+
+##
+
+scan - n/a
+
+##
+
+sequenceEqual - n/a
+
+##
+
+share - n/a
+
+##
+
+shareReplay - n/a
+
+##
+
+single - n/a
+
+##
+
+skip - n/a
+
+##
+
+skipLast - n/a
+
+##
+
+skipUntil - n/a
+
+##
+
+skipWhile - n/a
+
+##
+
+startWith - n/a
+
+##
+
+subscribeOn - n/a
+
+##
+
+switchAll - n/a
+
+##
+
+switchMap - n/a
+
+##
+
+switchMapTo - n/a
+
+##
+
+switchScan - n/a
+
+##
+
+take - n/a
+
+##
+
+takeLast - n/a
+
+##
+
+takeUntil - n/a
+
+##
+
+takeWhile - n/a
+
+##
+
+tap - n/a
+
+##
+
+throttle - n/a
+
+##
+
+throttleTime - n/a
+
+##
+
+throwIfEmpty - n/a
+
+##
+
+timeInterval - n/a
+
+##
+
+timeout - soon be deprecated
+
+##
+
+timeoutWith - n/a
+
+##
+
+timestamp - n/a
+
+##
+
+toArray - n/a
+
+##
+
+window - n/a
+
+##
+
+windowCount - n/a
+
+##
+
+windowTime - n/a
+
+##
+
+windowToggle - n/a
+
+##
+
+windowWhen - n/a
+
+##
+
+withLatestFrom - n/a
+
+##
+
+zip - deprecated
+
+##
+
+zipAll - n/a
+
+##
+
 zipWith n/a
